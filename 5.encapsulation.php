@@ -3,7 +3,7 @@
 class TennisMatch
 {
 	// only this method is exposed, others are used internal
-	
+
 	public function score($num1, $num2) 
 	{
 		if($this->inDeuce($num1, $num2))
@@ -12,7 +12,6 @@ class TennisMatch
 		}
 		else if($this->hasWinner($num1, $num2))
 		{
-
 			return 'Match has a winner';
 		}
 	}
